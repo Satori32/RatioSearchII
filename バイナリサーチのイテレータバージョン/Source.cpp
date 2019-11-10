@@ -101,7 +101,7 @@ int main() {
 	auto R = MakeRandomVector(16);
 
 	//auto A = BinarySearch(R.begin(), R.end(),17);//need sorted conatiner.
-	auto A = RatioSearch(R.begin(), R.end(),7);//need sorted conatiner.
+	auto A = RatioSearch(R.begin(), R.end(),7);//need sorted conatiner. little slow on conputer but real.
 
 	std::cout << (std::get<0>(A) ? 'T' : 'F') << ",value:" << *std::get<1>(A) << ",Distance:" << std::distance(R.begin(), std::get<1>(A)) << std::endl;
 
