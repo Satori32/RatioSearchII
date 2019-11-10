@@ -5,6 +5,8 @@
 #include <random>
 #include <tuple>
 
+//MIT License.
+
 template<class it,class T>
 std::tuple<bool, it> BinarySearch(it A, it B, const T& V) {
 
